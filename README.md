@@ -3,8 +3,6 @@
 
 This guide provides step-by-step instructions for setting up Jenkins, Docker Engine, Trivy, and SonarQube, followed by creating a secure CI pipeline in Jenkins. These tools will help ensure automated vulnerability scans, code quality checks, and secure software delivery.
 
-<img src="./images/webinar-demo-ci-pipeline-diagram.png" alt="Istio Service Mesh" width="600" height="100%">
-
 ---
 
 ## Table of Contents
@@ -286,7 +284,7 @@ rm -rf $TRIVY_TEMP_DIR
 ```
 
 ## 4. SonarQube Installation
-<img src="./images/sonarqube-server-formerly-sonarqube.webp" alt="Trivy" width="25%" height="100%">
+<img src="https://assets-eu-01.kc-usercontent.com/55017e37-262d-017b-afd6-daa9468cbc30/6c029869-3710-457a-9f48-58b10b871cb6/SQ-Server_Built-in-padding_300px.svg?w=300&h=72&auto=format&fit=crop" alt="Trivy" width="25%" height="100%">
 Run SonarQube using a Docker container:
 
 ```bash
